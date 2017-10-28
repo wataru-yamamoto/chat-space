@@ -1,4 +1,5 @@
 ## DB設計
+
 ## groupsテーブル
 
 |Column|Type|Options|
@@ -14,9 +15,9 @@
 
 |Column|Type|Options|
 |------|----|-------|
-|name|string|null: false, foreign_key: true|
-|email|integer|null: false, foreign_key: true|
-|password|integer|null: false, foreign_key: true|
+|name|string|null: false|
+|email|integer|null: false|
+|password|integer|null: false|
 
 ### Association
 - has_many :groups, through: :group_user
