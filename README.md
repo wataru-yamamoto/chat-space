@@ -40,9 +40,9 @@
 |Column|Type|Options|
 |------|----|-------|
 |text|text|null: false|
-|image|text|null: false|
-|group_id|integer|null: false|
-|user_id|integer|null: false|
+|image|string|null: false|
+|group_id|integer|null: false, index: true|
+|user_id|integer|null: false, index: true|
 |created_at|datetime|null: false|
 |updated_at|datetime|null: false|
 
