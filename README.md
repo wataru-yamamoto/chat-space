@@ -7,7 +7,7 @@
 |name|string|null: false, index: true|
 
 ### Association
-- has_many :users, through: :group-user
+- has_many :users, through: :group-users
 - has_many :messages
 - has_many :group-users
 
